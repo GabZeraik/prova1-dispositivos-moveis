@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    float: left;
+    margin: 1% 4% 0 0;
+}
+
+p {
+    display: block;
+    float: left;
+    margin-top: 1%;
+    width: 100%;
+    height: 35%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+textarea {
+    display: block;
+    float: left;
+    margin-top: 1%;
+    width: 100%;
+    height: 35%;
+}
+
+.botao-carregar {
+    width: 100%;
+    height: 4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: rgb(31, 31, 31);
+    font-size: 3em;
+}
+
+.container {
+    display: block;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-foto {
+    display: block;
+    float: left;
+    margin: 5%;
+    width: 35%;
+}
+
+.card-img {
+    width: 90%;
+    height: 80%;
+}
+
+.js-favorita {
+    border: solid 5px lightcoral;
+}
+
+.js-escondido {
+    display: none !important;
+}
